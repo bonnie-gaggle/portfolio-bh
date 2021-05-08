@@ -41,6 +41,24 @@ body {
   padding: 12px 20px;
 }
 
+.nav {
+  background-color: var(--secondary-color);
+  line-height: 2;
+}
+
+.nav .main-link {
+  margin: 0 2%;
+}
+
+.nav .active {
+  font-weight: bold;
+}
+
+.nav a {
+  color: white;
+  padding: 4px;
+}
+
 .social {
   text-align: center;
 }

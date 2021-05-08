@@ -11,10 +11,10 @@ h1 {
   font-size: 96px;
 }
 
-h2,
-h3 {
+h2 {
   font-family: var(--heading-font);
   font-weight: normal;
+  font-size: 36px;
 }
 
 body {
@@ -26,10 +26,6 @@ body {
   background: var(--primary-color);
   text-align: center;
   padding: 72px 20px;
-}
-
-.hero h2 {
-  font-size: 42px;
 }
 
 .btn-contact {
@@ -71,4 +67,14 @@ body {
 
 .social a {
   margin: 0 50px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 18pt;
+  }
 }

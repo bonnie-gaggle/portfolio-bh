@@ -1,15 +1,42 @@
+:root {
+  --primary-color: #f0f5ff;
+  --secondary-color: #58697d;
+  --heading-font: "Montserrat", sans-serif;
+  --default-font: "Raleway", sans-serif;
+}
+
 h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--heading-font);
   font-weight: bold;
+  font-size: 96px;
 }
 
 h2,
 h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--heading-font);
   font-weight: normal;
 }
 
-p {
-  font-family: "Raleway", sans-serif;
+body {
+  font-family: var(--default-font);
   font-weight: normal;
+}
+
+.hero {
+  background: var(--primary-color);
+  text-align: center;
+  padding: 72px 20px;
+}
+
+.hero h2 {
+  font-size: 42px;
+}
+
+.btn-contact {
+  background: var(--secondary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
 }

@@ -50,9 +50,17 @@ body {
   font-weight: bold;
 }
 
-.nav a {
+.nav .nav-link {
   color: white;
   padding: 4px;
+}
+
+.dropdown-item {
+  color: var(--secondary-color);
+}
+
+.featured-project {
+  margin: 5px;
 }
 
 .social {

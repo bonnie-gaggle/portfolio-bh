@@ -40,3 +40,13 @@ body {
   line-height: 27px;
   padding: 12px 20px;
 }
+
+.social {
+  text-align: center;
+}
+
+.social i {
+  color: var(--secondary-color);
+  font-size: 32px;
+  margin: 30px 50px;
+}

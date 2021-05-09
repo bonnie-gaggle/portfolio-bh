@@ -119,7 +119,11 @@ p {
   text-align: center;
 }
 
-.portfolio .img-fluid {
+.portfolio {
+  vertical-align: middle;
+}
+
+.portfolio img {
   max-height: 350px;
 }
 
@@ -142,10 +146,14 @@ p {
     font-size: 9pt;
   }
 
-  .btn-primary {
+  .btn-primary,
+  .btn-secondary {
     font-size: 14px;
     line-height: 27px;
     padding: 10px 15px;
+    display: block;
+    text-align: center;
+    margin: 20px 80px;
   }
 
   .social i {

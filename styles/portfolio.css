@@ -28,10 +28,25 @@ p {
   padding: 72px 20px;
 }
 
-.btn-contact {
+.btn-primary {
   background: var(--secondary-color);
   border-radius: 4px;
   color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
+
+.btn-primary:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.btn-secondary {
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: var(--secondary-color);
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
@@ -104,6 +119,10 @@ p {
   text-align: center;
 }
 
+.portfolio .img-fluid {
+  max-height: 350px;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 36px;
@@ -123,7 +142,7 @@ p {
     font-size: 9pt;
   }
 
-  .btn-contact {
+  .btn-primary {
     font-size: 14px;
     line-height: 27px;
     padding: 10px 15px;

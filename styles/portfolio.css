@@ -17,7 +17,7 @@ h2 {
   font-size: 36px;
 }
 
-body {
+p {
   font-family: var(--default-font);
   font-weight: normal;
 }
@@ -75,14 +75,65 @@ body {
 
 .social a {
   margin: 0 50px;
+  text-decoration: none;
+}
+
+.stack {
+  border: 1px solid var(--secondary-color);
+  padding: 15px;
+}
+
+.stack h2 {
+  text-align: center;
+}
+
+.stack ul {
+  list-style-type: none;
+  padding: 15px 0;
+}
+
+.stack li {
+  font-size: 18pt;
+  line-height: 2;
+  text-align: center;
+}
+
+.education {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 48px;
+    font-size: 36px;
   }
 
   h2 {
     font-size: 18pt;
+  }
+
+  .hero {
+    padding: 50px 20px;
+  }
+
+  .nav,
+  .dropdown-item {
+    font-size: 9pt;
+  }
+
+  .btn-contact {
+    font-size: 14px;
+    line-height: 27px;
+    padding: 10px 15px;
+  }
+
+  .social i {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .social a {
+    margin: 0 15px;
   }
 }

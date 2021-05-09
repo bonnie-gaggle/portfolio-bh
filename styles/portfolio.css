@@ -76,6 +76,11 @@ p {
 
 .featured-project {
   margin: 5px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background: var(--primary-color);
+  border-radius: 5px;
 }
 
 .social {

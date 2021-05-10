@@ -80,7 +80,9 @@ p {
   align-items: center;
   flex-wrap: wrap;
   background: var(--primary-color);
+  border: 1px solid var(--primary-color);
   border-radius: 5px;
+  padding: 8px;
 }
 
 .social {
@@ -176,5 +178,17 @@ p {
 
   .interests-list {
     list-style-type: none;
+  }
+
+  #teaching {
+    margin-top: 20px;
+  }
+
+  .portfolio a {
+    font-size: 10pt;
+  }
+
+  .hide-small {
+    display: none;
   }
 }

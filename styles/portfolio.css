@@ -184,6 +184,10 @@ p {
     margin-top: 20px;
   }
 
+  .portfolio {
+    text-align: center;
+  }
+
   .portfolio a {
     font-size: 10pt;
   }

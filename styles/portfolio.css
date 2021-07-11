@@ -115,9 +115,17 @@ p {
 }
 
 .stack li {
-  font-size: 18pt;
-  line-height: 2;
+  font-size: 16pt;
+  line-height: 1.5;
   text-align: center;
+}
+
+.headshot {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 1rem;
 }
 
 .education {

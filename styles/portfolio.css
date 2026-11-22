@@ -103,7 +103,7 @@ p {
 
 .stack {
   border: 1px solid var(--secondary-color);
-  padding: 15px;
+  padding: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -164,8 +164,8 @@ p {
   .btn-primary,
   .btn-secondary {
     font-size: 16px;
-    line-height: 1.5px;
-    padding: 10px 15px;
+    line-height: 1.5;
+    padding: 10px 16px;
     display: block;
     text-align: center;
     margin: 20px 80px;
@@ -177,7 +177,7 @@ p {
   }
 
   .social a {
-    margin: 0 15px;
+    margin: 0 16px;
   }
 
   .education {
@@ -196,17 +196,7 @@ p {
     text-align: center;
   }
 
-  .portfolio a {
-    font-size: 10pt;
-  }
-
   .hide-small {
     display: none;
-  }
-
-  @media (min-width: 500px) {
-    .btn-primary {
-      display: inline-block;
-    }
   }
 }

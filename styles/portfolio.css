@@ -32,8 +32,8 @@ p {
   background: var(--secondary-color);
   border-radius: 4px;
   color: white;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 16px;
+  line-height: 1.5;
   padding: 12px 20px;
 }
 
@@ -47,8 +47,8 @@ p {
   background: var(--primary-color);
   border-radius: 4px;
   color: var(--secondary-color);
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 16px;
+  line-height: 1.5;
   padding: 12px 20px;
 }
 
@@ -62,7 +62,8 @@ p {
 }
 
 .nav .active {
-  font-weight: bold;
+  font-weight: 900;
+  text-decoration: underline;
 }
 
 .nav .nav-link {
@@ -102,7 +103,10 @@ p {
 
 .stack {
   border: 1px solid var(--secondary-color);
-  padding: 15px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .stack h2 {
@@ -111,7 +115,8 @@ p {
 
 .stack ul {
   list-style-type: none;
-  padding: 15px 0;
+  padding: 16px 0;
+  margin: 0;
 }
 
 .stack li {
@@ -156,16 +161,11 @@ p {
     padding: 50px 20px;
   }
 
-  .nav,
-  .dropdown-item {
-    font-size: 9pt;
-  }
-
   .btn-primary,
   .btn-secondary {
-    font-size: 14px;
-    line-height: 27px;
-    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px 16px;
     display: block;
     text-align: center;
     margin: 20px 80px;
@@ -177,7 +177,7 @@ p {
   }
 
   .social a {
-    margin: 0 15px;
+    margin: 0 16px;
   }
 
   .education {
@@ -196,17 +196,7 @@ p {
     text-align: center;
   }
 
-  .portfolio a {
-    font-size: 10pt;
-  }
-
   .hide-small {
     display: none;
-  }
-
-  @media (min-width: 500px) {
-    .btn-primary {
-      display: inline-block;
-    }
   }
 }

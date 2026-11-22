@@ -62,7 +62,8 @@ p {
 }
 
 .nav .active {
-  font-weight: bold;
+  font-weight: 900;
+  text-decoration: underline;
 }
 
 .nav .nav-link {
